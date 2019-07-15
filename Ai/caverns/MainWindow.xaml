@@ -1,0 +1,17 @@
+﻿<Window x:Class="caverns.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="845" Width="418">
+    <Grid x:Name="frmMain" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.351"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Label x:Name="lblOutput" Content="testing" HorizontalAlignment="Left" Height="766" Margin="22,10,0,0" VerticalAlignment="Top" Width="365"/>
+
+    </Grid>
+</Window>
